@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Website</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .movie{
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .movie img{
+            width: 100%;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        details{
+            margin-top: 10px;
+        }
+
+        summary{
+            cursor: pointer;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .rating{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🎬 Movie Collection</h1>
+
+<div class="container">
+
+    <!-- HIT 3 -->
+    <div class="movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5XH4ozSAr2E72TN-P3ShnmiuEEsoQ2_8t0DFJrd7Pw&s=10" alt="HIT 3">
+        <details>
+       
+            <summary>HIT 3</summary>
+
+            <p><b>Genre:</b> Crime Thriller</p>
+            <p><b>Release Date:</b> 2025</p>
+            <p><b>Cast:</b> Nani, Srinidhi Shetty</p>
+            <p><b>Synopsis:</b> A police officer investigates a challenging murder case.</p>
+            <p><b>Review:</b> Suspenseful and engaging thriller.</p>
+            <p class="rating">⭐ Rating: 8.5/10</p>
+</details>
+       
+    </div>
+
+    <!-- Hi Nanna -->
+    <div class="movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH884PlIckUL9mlHqRSdnMfdVF2zWcrFsV2UAYGQNzGA&s=10" alt="Hi Nanna">
+
+        <details>
+            <summary>Hi Nanna</summary>
+
+            <p><b>Genre:</b> Romance, Drama</p>
+            <p><b>Release Date:</b> 2023</p>
+            <p><b>Cast:</b> Nani, Mrunal Thakur</p>
+            <p><b>Synopsis:</b> A father narrates his beautiful love story to his daughter.</p>
+            <p><b>Review:</b> Emotional and heartwarming movie.</p>
+            <p class="rating">⭐ Rating: 8.3/10</p>
+        </details>
+    </div>
+
+    <!-- Dude -->
+    <div class="movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uJ4poVDKfDjIrWqNPuC2dD6034ZEPQfXZlAZMwbr9Q&s=10" alt="Dude">
+
+        <details>
+            <summary>Dude</summary>
+
+            <p><b>Genre:</b> Action, Drama</p>
+            <p><b>Release Date:</b> 2025</p>
+            <p><b>Cast:</b> Pradeep Ranganathan</p>
+            <p><b>Synopsis:</b> A youthful action entertainer with fun and emotions.</p>
+            <p><b>Review:</b> Energetic and entertaining.</p>
+            <p class="rating">⭐ Rating: 8.0/10</p>
+        </details>
+    </div>
+
+    <!-- Love Today -->
+    <div class="movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBUidZyITGve1G8rNrIpB3_N__hLRo30DrIT2vKkBJ0g&s=10" alt="Love Today">
+
+        <details>
+            <summary>Love Today</summary>
+
+            <p><b>Genre:</b> Romantic Comedy</p>
+            <p><b>Release Date:</b> 2022</p>
+            <p><b>Cast:</b> Pradeep Ranganathan, Ivana</p>
+            <p><b>Synopsis:</b> A couple exchanges their phones and discovers hidden truths.</p>
+            <p><b>Review:</b> Funny and relatable modern romance.</p>
+            <p class="rating">⭐ Rating: 8.2/10</p>
+        </details>
+    </div>
+
+    <!-- Return of the Dragon -->
+    <div class="movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQqDVLhqiEkINSJ868NXAXgqmW5Ox0KkVHuQiiVWAF0w&s=10" alt="Return of the Dragon">
+
+        <details>
+            <summary>Return of the Dragon</summary>
+
+            <p><b>Genre:</b> Action, Comedy</p>
+            <p><b>Release Date:</b> 2025</p>
+            <p><b>Cast:</b> Pradeep Ranganathan</p>
+            <p><b>Synopsis:</b> A young man faces unexpected challenges in life.</p>
+            <p><b>Review:</b> Good blend of action and comedy.</p>
+            <p class="rating">⭐ Rating: 8.1/10</p>
+        </details>
+    </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
