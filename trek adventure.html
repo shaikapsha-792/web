@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trekking Adventure</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background-color:#f4f4f4;
+        }
+
+        /* Hero Section */
+        .hero{
+            background-image:url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200");
+            background-size:cover;
+            background-position:center;
+            height:300px;
+        }
+
+        .overlay{
+            background-color:rgba(0,0,0,0.5);
+            height:100%;
+            color:white;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .section{
+            background:white;
+            margin:20px;
+            padding:20px;
+            border-radius:10px;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            width:250px;
+            background:#e8f4ff;
+            border-radius:10px;
+            padding:10px;
+            text-align:center;
+        }
+
+        .card img{
+            width:100%;
+            height:150px;
+            border-radius:10px;
+        }
+        .price{
+            background:#d4edda;
+            padding:10px;
+            margin:10px 0;
+            border-radius:5px;
+        }
+nav{
+    background:#0a3d62;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+    </style>
+</head>
+
+<body>
+<nav>
+    <a href="#routes">Routes</a>
+    <a href="#camping">Camping</a>
+    <a href="#schedules">Schedules</a>
+    <a href="#prices">Packages</a>
+</nav>
+
+   
+    <div class="hero">
+        <div class="overlay">
+            <h1>Trekking Adventure</h1>
+            <p>Explore Nature and Camping Trips</p>
+        </div>
+    </div>
+<section id="routes">
+    <!-- Trekking Routes -->
+    <div class="section">
+        <h2>Trekking Routes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400" alt="Himalayan Trek">
+                <h3>Himalayan Trek</h3>
+                <p>Snow-covered mountains.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Forest Trek">
+                <h3>Forest Trek</h3>
+                <p>Beautiful forests and waterfalls.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400" alt="Valley Trek">
+                <h3>Valley Trek</h3>
+                <p>Scenic valley views.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="camping">
+    <div class="section">
+        <h2>Camping Trips</h2>
+
+        <ul>
+            <li>Lake Camping</li>
+            <li>Forest Camping</li>
+            <li>Mountain Camping</li>
+        </ul>
+    </div>
+</section>
+<section id="schedules">
+    <div class="section">
+        <h2>Trip Schedule</h2>
+
+        <ul>
+            <li>10 Nov - Himalayan Trek</li>
+            <li>18 Nov - Forest Trek</li>
+            <li>25 Nov - Mountain Camp</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Equipment Checklist</h2>
+
+        <ul>
+            <li>Backpack</li>
+            <li>Water Bottle</li>
+            <li>Trekking Shoes</li>
+            <li>First Aid Kit</li>
+            <li>Flashlight</li>
+        </ul>
+    </div>
+</section>
+    <div class="section">
+        <h2>Safety Guidelines</h2>
+
+        <ul>
+            <li>Stay with your group</li>
+            <li>Carry enough water</li>
+            <li>Wear trekking shoes</li>
+            <li>Follow the guide's instructions</li>
+        </ul>
+    </div>
+<section id="prices">
+    <div class="section">
+        <h2>Package Prices</h2>
+
+        <div class="price">Basic Package - ₹3000</div>
+        <div class="price">Adventure Package - ₹6000</div>
+        <div class="price">Premium Package - ₹10000</div>
+    </div>
+</div>
+</section>
+
+</body>
+</html>
+
+  
